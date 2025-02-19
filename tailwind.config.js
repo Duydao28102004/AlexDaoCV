@@ -9,7 +9,7 @@ export default {
                 accent: "#8B5CF6",       // Light Purple
                 textDark: "#1E293B",     // Dark Blue-Gray
                 textLight: "#64748B",    // Light Gray-Blue
-                background: "#E0F2FE",   // Light Blue Background
+                background: "#ededed",   // Light Blue Background
             },
             fontFamily: {
                 poppins: ["Poppins", "sans-serif"],
