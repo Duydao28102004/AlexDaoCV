@@ -7,9 +7,10 @@ export default {
                 primary: "#075BD1",      // Deep Blue
                 secondary: "#878686",    // Soft gray
                 accent: "#8B5CF6",       // Light Purple
-                textDark: "#1E293B",     // Dark Blue-Gray
+                textDark: "#bb9eff",     // Blue-Gray
                 textLight: "#64748B",    // Light Gray-Blue
-                background: "#ededed",   // Light Blue Background
+                primaryBackground: "#ededed",   // Light Blue Background
+                secondaryBackground: "#7943f7", // Dark purple background
             },
             fontFamily: {
                 poppins: ["Poppins", "sans-serif"],

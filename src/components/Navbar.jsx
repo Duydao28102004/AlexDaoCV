@@ -22,14 +22,8 @@ const Navbar = () => {
 
       {/* Desktop Navigation */}
       <nav className="hidden md:flex gap-6 pr-8">
-        <Link to="about" smooth={true} duration={500} className="cursor-pointer text-secondary bg-background py-2 px-4 rounded-md">
-          About
-        </Link>
-        <Link to="projects" smooth={true} duration={500} className="cursor-pointer text-secondary bg-background py-2 px-4 rounded-md">
-          Projects
-        </Link>
-        <Link to="contact" smooth={true} duration={500} className="cursor-pointer text-secondary bg-background py-2 px-4 rounded-md">
-          Contact
+        <Link to="skills" smooth={true} duration={500} className="cursor-pointer text-secondary bg-background py-2 px-4 rounded-md">
+          Skills
         </Link>
       </nav>
 
@@ -42,14 +36,9 @@ const Navbar = () => {
           menuOpen ? "block" : "hidden"
         }`}
       >
-        <Link to="about" smooth={true} duration={500} className="py-3 text-lg cursor-pointer" onClick={() => setMenuOpen(false)}>
-          About
-        </Link>
-        <Link to="projects" smooth={true} duration={500} className="py-3 text-lg cursor-pointer" onClick={() => setMenuOpen(false)}>
-          Projects
-        </Link>
-        <Link to="contact" smooth={true} duration={500} className="py-3 text-lg cursor-pointer" onClick={() => setMenuOpen(false)}>
-          Contact
+
+        <Link to="skills" smooth={true} duration={500} className="py-3 text-lg text-secondary cursor-pointer" onClick={() => setMenuOpen(false)}>
+          Skills
         </Link>
       </motion.div>
     </div>
