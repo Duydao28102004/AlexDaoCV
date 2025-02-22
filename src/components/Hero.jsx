@@ -1,6 +1,12 @@
+import { motion } from "framer-motion";
+
 const Hero = () => {
   return (
-    <div className="flex w-full py-10">
+    <motion.div 
+        initial={{ opacity: 0, y: 500 }} 
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease: "easeInOut" }}
+        className="flex w-full py-10">
         {/* Hero section div */}
         <div className="mx-auto w-[80%] bg-white rounded-md p-10">
             {/* Hero section avatar */}
@@ -18,7 +24,7 @@ const Hero = () => {
                 </p>
             </div>
         </div>
-    </div>
+    </motion.div>
   )
 }
 export default Hero;

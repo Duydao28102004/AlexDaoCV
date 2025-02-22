@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-scroll";
-import { Menu, X } from "lucide-react"; // Using Lucide Icons
+import { Menu, X } from "lucide-react";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
@@ -25,6 +25,9 @@ const Navbar = () => {
         <Link to="skills" smooth={true} duration={500} className="cursor-pointer text-secondary bg-background py-2 px-4 rounded-md">
           Skills
         </Link>
+        <Link to="projects" smooth={true} duration={500} className="cursor-pointer text-secondary bg-background py-2 px-4 rounded-md">
+          Projects
+        </Link>
       </nav>
 
       {/* Mobile Navigation with Smooth Animation */}
@@ -36,9 +39,11 @@ const Navbar = () => {
           menuOpen ? "block" : "hidden"
         }`}
       >
-
-        <Link to="skills" smooth={true} duration={500} className="py-3 text-lg text-secondary cursor-pointer" onClick={() => setMenuOpen(false)}>
+        <Link to="skills" smooth={true} duration={500} className="py-3 text-lg text-secondary cursor-pointer w-full text-center" onClick={() => setMenuOpen(false)}>
           Skills
+        </Link>
+        <Link to="skills" smooth={true} duration={500} className="py-3 text-lg text-secondary cursor-pointer w-full text-center" onClick={() => setMenuOpen(false)}>
+          Projects
         </Link>
       </motion.div>
     </div>

@@ -1,11 +1,12 @@
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
 import Skills from "./components/Skills"
+import Projects from "./components/Projects"
+import AnimatedSection from "./components/AnimatedSection"
 
 function App() {
   return (
     <>
-      
       <div className="relative w-full min-h-screen">
         {/*Background */}
         <div
@@ -15,12 +16,13 @@ function App() {
         {/*Content */}
         <div className="relative z-10 flex flex-col items-center justify-center text-white">
           <Navbar />
-          <section id="about">
-            <Hero />
-          </section>
-          <section id="skills">
+          <Hero />
+          <AnimatedSection id="skills">
             <Skills />
-          </section>
+          </AnimatedSection>
+          <AnimatedSection id="projects">
+            <Projects />
+          </AnimatedSection>
         </div>
       </div>
     </>
