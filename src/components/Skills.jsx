@@ -2,7 +2,7 @@ import { Brush, Server, Palette } from 'lucide-react';
 
 const Skills = () => {
     return (
-        <div className="flex justify-center items-center w-full py-10">
+        <div className="flex flex-col justify-center items-center w-full py-10">
             {/* Secondary background container */}
             <div className="bg-secondaryBackground w-[80vw] rounded-lg shadow-lg flex flex-col items-center p-6">
                 <h1 className="text-5xl font-bold text-white my-10">Skills</h1>
@@ -36,14 +36,27 @@ const Skills = () => {
                             <h2 className="text-secondary text-center mb-4">
                                 {skill.description}
                             </h2>
-                            <h1 className="text-lg font-medium text-black mx-auto mb-2">Languages</h1>
-                            <h2 className="text-secondary text-center mb-4">{skill.languages}</h2>
+                            {skill.languages == null ? null : (
+                                <div>
+                                    <h1 className="text-lg font-medium text-black text-center mb-2">Languages</h1>
+                                    <h2 className="text-secondary text-center mb-4">{skill.languages}</h2>
+                                </div>
+                            )}
                             <h1 className="text-lg font-medium text-black mx-auto mb-2">Tools</h1>
                             <h2 className="text-secondary text-center mb-4">{skill.tools}</h2>
                         </div>
                     ))}
                 </div>
             </div>
+            <a 
+                href="https://drive.google.com/file/d/1Vif23Q5AJTuCwLVIVhaoND2o23hiYzm2/view?usp=sharing" 
+                target="_blank" 
+                rel="noopener noreferrer"
+            >
+                <button className="bg-secondaryBackground text-white px-4 py-2 rounded-md shadow-md hover:bg-accent transition duration-300 mt-10">
+                    View my resume
+                </button>
+            </a>
         </div>
     );
 };
