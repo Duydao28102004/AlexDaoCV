@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <div className="p-4 w-full h-fit flex items-center justify-between">
       {/* Logo */}
-      <div className="text-primary font-bold text-3xl">Alex Dao</div>
+      <div className="text-accent font-bold text-3xl">Alex Dao</div>
 
       {/* Hamburger Icon for Mobile */}
       <div className="md:hidden">
@@ -42,7 +42,7 @@ const Navbar = () => {
         <Link to="skills" smooth={true} duration={500} className="py-3 text-lg text-secondary cursor-pointer w-full text-center" onClick={() => setMenuOpen(false)}>
           Skills
         </Link>
-        <Link to="skills" smooth={true} duration={500} className="py-3 text-lg text-secondary cursor-pointer w-full text-center" onClick={() => setMenuOpen(false)}>
+        <Link to="projects" smooth={true} duration={500} className="py-3 text-lg text-secondary cursor-pointer w-full text-center" onClick={() => setMenuOpen(false)}>
           Projects
         </Link>
       </motion.div>
