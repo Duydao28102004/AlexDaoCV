@@ -3,8 +3,20 @@ import Hero from "./components/Hero"
 import Skills from "./components/Skills"
 import Projects from "./components/Projects"
 import AnimatedSection from "./components/AnimatedSection"
+import Footer from "./components/Footer"
+import { useEffect } from "react"
 
 function App() {
+
+  useEffect(() => {
+    // Disable browser auto scroll restoration
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual'
+    }
+    // Scroll to top on page load
+    window.scrollTo(0, 0)
+  },[]);
+
   return (
     <>
       <div className="relative w-full min-h-screen">
@@ -23,6 +35,7 @@ function App() {
           <AnimatedSection id="projects">
             <Projects />
           </AnimatedSection>
+          <Footer/>
         </div>
       </div>
     </>
