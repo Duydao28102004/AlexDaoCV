@@ -25,8 +25,7 @@ The website follows a dark theme with the following color palette:
 - **Secondary Background:** `#7943f7` (Dark Purple Background)
 
 ## 📦 <span style="color:#6B46C1;">Installation</span>  
-Clone the repo and install dependencies:  
+Clone the repo and install dependencies:
 ```bash
-git clone https://github.com/Duydao28102004/AlexDaoCV
-cd AlexDaoCV  
-npm install  
+git clone https://github.com/Duydao28102004/AlexDaoCV 
+npm install
