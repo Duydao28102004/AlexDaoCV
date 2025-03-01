@@ -28,6 +28,9 @@ const Navbar = () => {
         <Link to="projects" smooth={true} duration={500} className="cursor-pointer text-secondary bg-background py-2 px-4 rounded-md">
           Projects
         </Link>
+        <Link to="experiences" smooth={true} duration={500} className="cursor-pointer text-secondary bg-background py-2 px-4 rounded-md">
+          Experiences
+        </Link>
       </nav>
 
       {/* Mobile Navigation with Smooth Animation */}
@@ -44,6 +47,9 @@ const Navbar = () => {
         </Link>
         <Link to="projects" smooth={true} duration={500} className="py-3 text-lg text-secondary cursor-pointer w-full text-center" onClick={() => setMenuOpen(false)}>
           Projects
+        </Link>
+        <Link to="experiences" smooth={true} duration={500} className="py-3 text-lg text-secondary cursor-pointer w-full text-center" onClick={() => setMenuOpen(false)}>
+          Experiences
         </Link>
       </motion.div>
     </div>

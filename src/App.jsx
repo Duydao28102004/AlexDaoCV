@@ -4,6 +4,7 @@ import Skills from "./components/Skills"
 import Projects from "./components/Projects"
 import AnimatedSection from "./components/AnimatedSection"
 import Footer from "./components/Footer"
+import Experiences from "./components/Experiences"
 import { useEffect } from "react"
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
           </AnimatedSection>
           <AnimatedSection id="projects">
             <Projects />
+          </AnimatedSection>
+          <AnimatedSection id="experiences">
+            <Experiences />
           </AnimatedSection>
           <Footer/>
         </div>
