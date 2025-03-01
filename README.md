@@ -1,20 +1,32 @@
-# 🚀 My Awesome Portfolio  
+# 🚀 <span style="color:#6B46C1;">My Awesome Portfolio</span>  
+
+<div style="background-color:#121212; padding:15px; border-radius:10px;">
 
 This is my personal portfolio website, built with **React** and **Tailwind CSS**. It showcases my experiences, projects, and skills in software development.  
 
-## 🔥 Features  
+## 🔥 <span style="color:#EDEDED;">Features</span>  
 - 🏆 Display of my **education** and **work experience**  
 - 💻 Sections for **projects** and **skills**  
-- 🎨 Fully **responsive** design with **Tailwind CSS**  
+- 🎨 Fully **responsive** dark mode design with **Tailwind CSS**  
 - 🚀 Smooth **animations** for a modern feel  
 
-## 🛠️ Tech Stack  
+## 🛠️ <span style="color:#6B46C1;">Tech Stack</span>  
 - **Frontend:** React, Tailwind CSS  
-- **Deployment:** Firebase hosting
+- **Deployment:** Firebase Hosting  
 
-## 📦 Installation  
+## 🎨 <span style="color:#A0AEC0;">Color Styling</span>  
+The website follows a dark theme with the following color palette:
+- **Primary Color:** `#075BD1` (Deep Blue)
+- **Secondary Color:** `#878686` (Soft Gray)
+- **Accent Color:** `#8B5CF6` (Light Purple)
+- **Text Dark:** `#bb9eff` (Blue-Gray)
+- **Text Light:** `#64748B` (Light Gray-Blue)
+- **Primary Background:** `#ededed` (Light Blue Background)
+- **Secondary Background:** `#7943f7` (Dark Purple Background)
+
+## 📦 <span style="color:#6B46C1;">Installation</span>  
 Clone the repo and install dependencies:  
 ```bash
-git clone https://github.com/yourusername/yourportfolio.git  
-cd yourportfolio  
+git clone https://github.com/Duydao28102004/AlexDaoCV
+cd AlexDaoCV  
 npm install  
