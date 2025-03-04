@@ -29,3 +29,13 @@ Clone the repo and install dependencies:
 ```bash
 git clone https://github.com/Duydao28102004/AlexDaoCV 
 npm install
+
+## 🚀 Run the Project  
+Start the development server locally:  
+```bash
+npm run dev  
+```
+Then open **[http://localhost:5173](http://localhost:5173)** in your browser.
+
+## 🌐 Website Hosting & Custom Domain  
+This website is successfully hosted at: [https://alexdaocv.web.app/](https://alexdaocv.web.app/)
