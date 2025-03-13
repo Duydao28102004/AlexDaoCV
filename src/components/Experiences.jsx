@@ -31,7 +31,7 @@ const Experiences = () => {
                             description: "Developed soft skills and customer service experience in a professional environment."
                         }
                     ].map((experience, index) => (
-                        <div key={index} className="flex items-center justify-center my-4 space-y-2">
+                        <div key={index} className="flex items-center my-4 space-y-2">
                             <div className="flex-shrink-0 w-16 h-16 mr-4 bg-gray-100 text-gray-900 font-bold flex items-center justify-center rounded-full text-xl">{experience.year}</div>
                             <div>
                                 <h3 className="text-xl font-semibold text-accent">{experience.title}</h3>

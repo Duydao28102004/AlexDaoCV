@@ -8,7 +8,7 @@ const Hero = () => {
         transition={{ duration: 0.5, ease: "easeInOut" }}
         className="flex w-full py-10">
         {/* Hero section div */}
-        <div className="mx-auto w-[80%] rounded-md p-10">
+        <div className="mx-auto w-[80%] rounded-md md:p-10">
             {/* Hero section avatar */}
             <div className="mx-auto w-[20vw] h-[20vw] rounded-full border-4 border-white shadow-lg overflow-hidden">
                 <img src="/avatar.jpg" alt="Profile" className="w-full h-full object-cover" />
